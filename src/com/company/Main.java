@@ -3,12 +3,13 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+    //
 
     public static void main(String[] args) {
-        System.out.println ("Labas iveskite skaiciu");
+        System.out.println ("iveskite sakiciu");
         Scanner sc = new Scanner ( System.in );
-        int ivestasskaicius = sc.nextInt ();
-        System.out.println (("Iveskiteskaiciu"));
+        int a = sc.nextInt ();
+        System.out.println ((a*a)*a);
 	// write your code here
     }
 }
